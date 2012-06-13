@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GPTrader", "GPTrader\GPTrader.fsproj", "{885CC210-BD01-4DBB-8FC9-CFC5D70C93A6}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GPTrader.Tests", "GPTrader.Tests\GPTrader.Tests.fsproj", "{B926087A-1DD1-4000-90BB-31F0C93E5305}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{31083B7F-D2B4-413D-9CDC-94AE96FA1C01}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{885CC210-BD01-4DBB-8FC9-CFC5D70C93A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885CC210-BD01-4DBB-8FC9-CFC5D70C93A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885CC210-BD01-4DBB-8FC9-CFC5D70C93A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885CC210-BD01-4DBB-8FC9-CFC5D70C93A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B926087A-1DD1-4000-90BB-31F0C93E5305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B926087A-1DD1-4000-90BB-31F0C93E5305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B926087A-1DD1-4000-90BB-31F0C93E5305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B926087A-1DD1-4000-90BB-31F0C93E5305}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
